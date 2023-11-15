@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class RunMatrix {
   public static void main(String[] args) {
+    //this part of the code only handles taking in the input from the user, As well as printing out everything user needs to see
     Matrix matrixes = new Matrix();
     Scanner scan = new Scanner(System.in);
     int size;
@@ -23,13 +24,12 @@ public class RunMatrix {
     System.out.print("printing matrix: ");
     System.out.println("");
     matrixes.filledMatrix(Xsize, Ysize);
-
-
-
-
-
-
-
+    System.out.println("");
+    System.out.println("Flipping matrix. . .matrix flipped");
+    System.out.println("");
+    System.out.print("Printing flipping matrix: ");
+    System.out.println("");
+    matrixes.flippedMatrix(Xsize, Ysize);
     scan.close();
   }
 }
