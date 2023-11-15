@@ -1,4 +1,12 @@
 public class Matrix {
+  private void highlight(){
+
+
+
+
+
+
+  }
   public void emptyMatrix(int Xsize,int Ysize){
     int[][] table = new int[Ysize][Xsize];
     for (int row = 0; row < table.length; row++) {
